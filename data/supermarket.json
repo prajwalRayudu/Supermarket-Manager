@@ -1,0 +1,260 @@
+{
+    "oldEmployees": [
+        {
+            "password": "gryffindor",
+            "accessLevel": 2,
+            "name": "Hermoine",
+            "designation": "Cashier"
+        },
+        {
+            "password": "Potter",
+            "accessLevel": 3,
+            "name": "Harry",
+            "designation": "Senior Cashier"
+        }
+    ],
+    "commonReceipt": {
+        "couponsUsed": [],
+        "itemsBought": [{
+            "number": 1,
+            "itemCode": 10,
+            "priceOfOne": 12,
+            "name": "Flour"
+        }]
+    },
+    "access": -1,
+    "employeeList": [
+        {
+            "password": "admin",
+            "accessLevel": 5,
+            "name": "admin",
+            "designation": "admin"
+        },
+        {
+            "password": "Dumbeldore",
+            "accessLevel": 4,
+            "name": "Dumbeldore",
+            "designation": "Supervisor"
+        },
+        {
+            "password": "Snape",
+            "accessLevel": 3,
+            "name": "Snape",
+            "designation": "Senior Cashier"
+        },
+        {
+            "password": "Voldermort",
+            "accessLevel": 2,
+            "name": "Voldermort",
+            "designation": "Cashier"
+        },
+        {
+            "password": "Weasly",
+            "accessLevel": 1,
+            "name": "Ron",
+            "designation": "Stocking Staff"
+        }
+    ],
+    "numLogins": 25,
+    "superMarketName": "GoOD PlaCe Market",
+    "billingInProcess": false,
+    "transactionsList": [
+        {
+            "receipt": {
+                "couponsUsed": [],
+                "itemsBought": [
+                    {
+                        "number": 2,
+                        "itemCode": 11,
+                        "priceOfOne": 12,
+                        "name": "Fries"
+                    },
+                    {
+                        "number": 3,
+                        "itemCode": 11,
+                        "priceOfOne": 12,
+                        "name": "Fries"
+                    }
+                ]
+            },
+            "cashierName": "Voldermort"
+        },
+        {
+            "receipt": {
+                "couponsUsed": [],
+                "itemsBought": [
+                    {
+                        "number": 1,
+                        "itemCode": 11,
+                        "priceOfOne": 12,
+                        "name": "Fries"
+                    },
+                    {
+                        "number": 3,
+                        "itemCode": 11,
+                        "priceOfOne": 12,
+                        "name": "Fries"
+                    }
+                ]
+            },
+            "cashierName": "Voldermort"
+        },
+        {"receipt": {
+            "couponsUsed": [],
+            "itemsBought": [{
+                "number": 1,
+                "itemCode": 10,
+                "priceOfOne": 12,
+                "name": "Flour"
+            }]
+        }}
+    ],
+    "inventoriesList": [
+        {
+            "inventoryName": "Baking Items",
+            "items": [
+                {
+                    "number": 49,
+                    "itemCode": 10,
+                    "priceOfOne": 12,
+                    "name": "Flour"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 11,
+                    "priceOfOne": 10,
+                    "name": "Sugar"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Meat",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 13,
+                    "priceOfOne": 11,
+                    "name": "Chicken"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 14,
+                    "priceOfOne": 15,
+                    "name": "Beef"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Health and Beauty",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 15,
+                    "priceOfOne": 20,
+                    "name": "Lotion"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 16,
+                    "priceOfOne": 25,
+                    "name": "Face Wash"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Frozen Food",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 17,
+                    "priceOfOne": 10,
+                    "name": "Fries"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 18,
+                    "priceOfOne": 9,
+                    "name": "Chicken Strips"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Snacks",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 19,
+                    "priceOfOne": 5,
+                    "name": "Doritos"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 20,
+                    "priceOfOne": 3,
+                    "name": "Pringles"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Dairy Products",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 21,
+                    "priceOfOne": 7,
+                    "name": "Milk"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 22,
+                    "priceOfOne": 2,
+                    "name": "Eggs"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Alcohol",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 23,
+                    "priceOfOne": 15,
+                    "name": "Beer"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 24,
+                    "priceOfOne": 30,
+                    "name": "Red Wine"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Vegetables",
+            "items": [
+                {
+                    "number": 50,
+                    "itemCode": 25,
+                    "priceOfOne": 3,
+                    "name": "Cilantro"
+                },
+                {
+                    "number": 50,
+                    "itemCode": 26,
+                    "priceOfOne": 4,
+                    "name": "Celery"
+                }
+            ]
+        }
+    ],
+    "couponsList": [
+        {
+            "couponCode": "New100",
+            "value": 10
+        },
+        {
+            "couponCode": "NEW20",
+            "value": 20
+        }
+    ]
+}

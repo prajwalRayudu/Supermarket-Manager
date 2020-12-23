@@ -1,0 +1,53 @@
+{
+    "oldEmployees": [],
+    "commonReceipt": {
+        "couponsUsed": [],
+        "itemsBought": []
+    },
+    "access": 0,
+    "employeeList": [{
+        "password": "admin",
+        "accessLevel": 5,
+        "name": "admin",
+        "designation": "admin"
+    }],
+    "numLogins": 0,
+    "superMarketName": "Test Market",
+    "billingInProcess": false,
+    "transactionsList": [],
+    "inventoriesList": [
+        {
+            "inventoryName": "Baking Items",
+            "items": []
+        },
+        {
+            "inventoryName": "Meat",
+            "items": []
+        },
+        {
+            "inventoryName": "Health and Beauty",
+            "items": []
+        },
+        {
+            "inventoryName": "Frozen Food",
+            "items": []
+        },
+        {
+            "inventoryName": "Snacks",
+            "items": []
+        },
+        {
+            "inventoryName": "Dairy Products",
+            "items": []
+        },
+        {
+            "inventoryName": "Alcohol",
+            "items": []
+        },
+        {
+            "inventoryName": "Vegetables",
+            "items": []
+        }
+    ],
+    "couponsList": []
+}

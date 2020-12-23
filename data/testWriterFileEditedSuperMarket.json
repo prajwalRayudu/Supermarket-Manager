@@ -1,0 +1,144 @@
+{
+    "oldEmployees": [
+        {
+            "password": "test",
+            "accessLevel": 2,
+            "name": "test3",
+            "designation": "Cashier"
+        },
+        {
+            "password": "test",
+            "accessLevel": 1,
+            "name": "test4",
+            "designation": "Stocking Staff"
+        }
+    ],
+    "commonReceipt": {
+        "couponsUsed": [
+            {
+                "couponCode": "TEST3",
+                "value": 50
+            },
+            {
+                "couponCode": "TEST4",
+                "value": 50
+            }
+        ],
+        "itemsBought": [
+            {
+                "number": 5,
+                "itemCode": 12,
+                "priceOfOne": 11,
+                "name": "Beef"
+            },
+            {
+                "number": 5,
+                "itemCode": 12,
+                "priceOfOne": 11,
+                "name": "Chicken"
+            }
+        ]
+    },
+    "access": 0,
+    "employeeList": [
+        {
+            "password": "admin",
+            "accessLevel": 5,
+            "name": "admin",
+            "designation": "admin"
+        },
+        {
+            "password": "test",
+            "accessLevel": 2,
+            "name": "test1",
+            "designation": "Cashier"
+        },
+        {
+            "password": "test",
+            "accessLevel": 1,
+            "name": "test2",
+            "designation": "Stocking Staff"
+        }
+    ],
+    "numLogins": 2,
+    "superMarketName": "Test Market",
+    "billingInProcess": false,
+    "transactionsList": [
+        {
+            "receipt": {
+                "couponsUsed": [],
+                "itemsBought": []
+            },
+            "cashierName": "test1"
+        },
+        {
+            "receipt": {
+                "couponsUsed": [],
+                "itemsBought": []
+            },
+            "cashierName": "test2"
+        }
+    ],
+    "inventoriesList": [
+        {
+            "inventoryName": "Baking Items",
+            "items": []
+        },
+        {
+            "inventoryName": "Meat",
+            "items": [
+                {
+                    "number": 10,
+                    "itemCode": 12,
+                    "priceOfOne": 11,
+                    "name": "Beef"
+                },
+                {
+                    "number": 10,
+                    "itemCode": 12,
+                    "priceOfOne": 11,
+                    "name": "Chicken"
+                }
+            ]
+        },
+        {
+            "inventoryName": "Health and Beauty",
+            "items": []
+        },
+        {
+            "inventoryName": "Frozen Food",
+            "items": []
+        },
+        {
+            "inventoryName": "Snacks",
+            "items": []
+        },
+        {
+            "inventoryName": "Dairy Products",
+            "items": [{
+                "number": 10,
+                "itemCode": 12,
+                "priceOfOne": 11,
+                "name": "Eggs"
+            }]
+        },
+        {
+            "inventoryName": "Alcohol",
+            "items": []
+        },
+        {
+            "inventoryName": "Vegetables",
+            "items": []
+        }
+    ],
+    "couponsList": [
+        {
+            "couponCode": "TEST1",
+            "value": 50
+        },
+        {
+            "couponCode": "TEST2",
+            "value": 50
+        }
+    ]
+}
